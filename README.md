@@ -1,0 +1,2 @@
+# own_shell
+This task involves writing your own simplified shell shell to call simple Linux console commands without arguments. This code is not aimed at writing your own algorithms for outputting the command result, but is intended to help you understand how programs written in C work when they are run in Linux, and also shows a way how you can write your own commands if you suddenly decide to write your own teams.  This code works and accepts the commands shown in the listing until you write the output.
