@@ -7,10 +7,20 @@ This code works and accepts the commands shown in the listing until you write 'e
 
 If you want to see the result of the work, you need to do the following on your Linux (or Linux remote console):
 
- 1) Create a file using Nano GUI by 'nano own_shell.c' (or any name you like)
+ 1) Create a file using Nano GUI by 
+ 
+    ```sh
+    $ nano own_shell.c
+    ```
+    (or any name you like)
  2) Paste the code from this repository contained in the file "ex1_fork.c" into your created file.
  3) Save the file using Linux tools and hotkeys (I'm sure you know how to do this)
- 4) Compile your file by 'gcc own_shell.c -o shell' command
- 5) Run the compiled file 'shell' by using './shell'
- 
+ 4) Compile your file by following command
+    ```sh
+    $ gcc own_shell.c -o shell
+    ```
+ 5) Run the compiled file 'shell' by using
+    ```sh
+    $ ./shell
+    ```
 Try using commands like 'pwd, ls, help' as well as any simple commands which are included in code and which can be included in it by yourself.
